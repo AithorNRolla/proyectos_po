@@ -15,3 +15,4 @@ class Punto3D(Punto):
         
 p3d=Punto3D(5,3,8)
 p3d.dibujar()
+#ejercicio de ejemplo. 
