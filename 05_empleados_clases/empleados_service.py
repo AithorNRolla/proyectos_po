@@ -9,7 +9,7 @@ class Empleado:
 class Gestor_Empleados:
     def __init__(self,dir):
         self.dir=dir
-    def alta_empleado(self,empleado):
+    def alta_empleado(self,empleado): 
         with open(self.dir,"a",newline="") as f:
             csv.writer(f).writerow([empleado.nombre,empleado.edad,empleado.salario,empleado.departamento])
 

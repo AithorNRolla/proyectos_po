@@ -6,7 +6,7 @@ egestor=ep.Gestor_Empleados(url)
 tab_nuevo,tab_buscar,tab_departamentos=st.tabs(["Nuevo empleado","Buscar empleado","Empleados por departamento"])
 
 with tab_nuevo:
-    st.subheader("Alta de empleados")
+    st.subheader("Alta de empleados") 
     nombre=st.text_input("Nombre:")
     edad=st.number_input("Edad:")
     salario=st.number_input("Salario:")
